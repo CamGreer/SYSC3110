@@ -10,6 +10,7 @@ public class AddressBook {
         addressBook.addBuddy(buddy1);
         addressBook.removeBuddy(buddy1);
         addressBook.addBuddy(new BuddyInfo("Noremac", "Ottawa", 705));
+        addressBook.testBranch();
     }
 
 
@@ -27,5 +28,9 @@ public class AddressBook {
                 buddyList.remove(buddy);
             }
         }
+    }
+
+    public void testBranch(){
+        System.out.println("Hopefully this feature is working");
     }
 }
