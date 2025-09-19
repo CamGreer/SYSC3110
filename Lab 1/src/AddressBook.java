@@ -9,6 +9,7 @@ public class AddressBook {
         BuddyInfo buddy1 = new BuddyInfo("Tom", "Carleton", 613);
         addressBook.addBuddy(buddy1);
         addressBook.removeBuddy(buddy1);
+        addressBook.addBuddy(new BuddyInfo("Noremac", "Ottawa", 705));
     }
 
 
